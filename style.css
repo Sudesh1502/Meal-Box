@@ -167,3 +167,20 @@ form{
 .favContent{
     margin-top: 15rem;
 }
+@media only screen and (max-width: 430px){
+    .searchBox{
+        width: 14rem;
+        font-size: 0.9rem;
+        
+    }
+    .searchBtn{
+        
+        font-size: 0.9rem;
+    }
+    .content{
+        font-size: 1.2rem;
+    }
+    .favContent{
+        font-size: 1.2rem; 
+    }
+}
