@@ -166,3 +166,4 @@ function removeItem(meal){
   location.reload();
 }
 //======================================================================================
+searchBtn.addEventListener('click', (event)=>event.preventDefault())
