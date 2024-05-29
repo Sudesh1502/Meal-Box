@@ -2,7 +2,7 @@
 //ACCESSING HTML ELEMENTS=============================================================
 const searchBox = document.querySelector(".searchBox");
 const mealItems = document.querySelector(".mealItems");
-const searchBtn = document.querySelector(".searchBtn");
+
 const favItems = document.querySelector(".favItems");
 const favBtn1 = document.querySelector(".favBtn1");
 const favBtn2 = document.querySelector(".favBtn2");
@@ -22,7 +22,6 @@ async function fetchmeal(query) {
     `https://www.themealdb.com/api/json/v1/1/search.php?s=${query}`
   );
   const data = await response.json();
-  console.log(data);
   return data.meals;
 }
 //======================================================================================
@@ -166,4 +165,3 @@ function removeItem(meal){
   location.reload();
 }
 //======================================================================================
-searchBtn.addEventListener('click', (event)=>event.preventDefault())

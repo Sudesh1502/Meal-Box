@@ -29,10 +29,14 @@ body::-webkit-scrollbar {
 .favBtn{
     font-size: 1.2rem;
     transition: 0.4s;
+    border: 1px solid #fff;
+    padding: 0.5rem;
+    border-radius: 0.8rem;
 
 }
 .favBtn:hover{
-    color: black;
+    background-color: #fff;
+    color: #ce3232;
     
 }
 .heading{
